@@ -359,6 +359,7 @@ bind C-q send-prefix
 
 # move status line to top
 #set -g status-position top
+<<<<<<< HEAD
 
 
 # -- tpm -----------------------------------------------------------------------
@@ -429,3 +430,5 @@ tmux_conf_uninstall_plugins_on_reload=true
 #
 # "$@"
 # # /!\ do not remove the previous line
+bind h split-window -h
+bind v split-window -v
