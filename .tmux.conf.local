@@ -294,3 +294,5 @@ bind C-q send-prefix
 
 # move status line to top
 #set -g status-position top
+bind h split-window -h
+bind v split-window -v
