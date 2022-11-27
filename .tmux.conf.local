@@ -340,7 +340,7 @@ tmux_conf_copy_to_os_clipboard=false
 set -g history-limit 1000000
 
 # start with mouse mode enabled
-set -g mouse on
+#set -g mouse on
 
 # force Vi mode
 #   really you should export VISUAL or EDITOR environment variable, see manual
@@ -359,9 +359,6 @@ bind C-q send-prefix
 
 # move status line to top
 #set -g status-position top
-<<<<<<< HEAD
-
-
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
